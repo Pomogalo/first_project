@@ -19,6 +19,11 @@ public:
     {
         return PI * (this->radius * this->radius);
     }
+    void printAllData()
+    {
+        cout << "Длина круга = " << getDlina() << endl;
+        cout << "Площадь круга = " << getPloshad();
+    }
 };
 int main()
 {
@@ -30,8 +35,7 @@ int main()
     cin >> rad;
 
     circle circleClass{ rad };
-
-    cout << "Длина круга = "<< circleClass.getDlina() << endl;
-    cout << "Площадь круга = " << circleClass.getPloshad();
+    circleClass.printAllData();
+    
 }
 
