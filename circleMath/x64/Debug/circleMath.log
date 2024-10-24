@@ -1,0 +1,4 @@
+﻿  circleMath.cpp
+C:\Users\Little\source\repos\circleMath\circleMath.cpp(15,23): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Little\source\repos\circleMath\circleMath.cpp(20,19): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  circleMath.vcxproj -> C:\Users\Little\source\repos\circleMath\x64\Debug\circleMath.exe
